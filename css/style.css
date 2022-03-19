@@ -1,0 +1,710 @@
+
+body{
+    font-family: 'Helvetica', -apple-system, BlinkMacSystemFont, YuGothic, "Yu Gothic Medium", "Yu Gothic", 'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, Arial, 'メイリオ', Meiryo, sans-serif;
+}
+
+header{
+    overflow:hidden;
+    margin-bottom: 100px;
+    padding-bottom: 100px;
+}
+
+.header-nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    top: 10%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    z-index: 5;
+    transition: all 1s ease;
+}
+
+.nav-bg{
+    top: 0%;
+    background-color: #fff;
+}
+
+.section-all{
+    margin: 180px 0;
+}
+
+.header-nav img {
+    width: 27%;
+    display: block;
+    height: 5vw;
+    object-fit: cover;
+}
+.header-nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.header-nav ul li a{
+    display: block;
+    font-size: 20px;
+    margin: 0 25px;
+    transition: all 0.1s ease;
+}
+
+.header-nav ul li a:active{
+    border-bottom: 3px solid #1106ba;
+}
+
+.header-nav ul li a:hover{
+    cursor: pointer;
+    color: #1106ba;
+}
+
+.menu-btn{
+    opacity: 0;
+    cursor: pointer;
+    font-size: 40px;
+}
+
+
+
+.logo-img.active-img{
+    opacity: 1;
+    transition: all 1.5s ease-out;
+}
+
+.header-nav.nav-bg.on-bg{
+    opacity: 1;
+}
+
+.nav-bg{
+    top: 0%;
+    background-color: #fff;
+}
+
+
+/* logo-item style start */
+.header-titel{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    padding-top: 150px;
+}
+    .logo-item{
+        position: relative;
+        padding-top: 2px;
+        flex-basis: 17%;
+    }
+
+    .logo-item .cycle-one{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        position: absolute;
+        /* opacity: 0; 
+        top: 70%; */
+        border: 6px solid #1106ba;
+    }
+    
+    .logo-item .cycle-two{
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        position: absolute;
+        /* opacity: 0; 
+        top: -70%; */
+        margin-left: 10px;
+        margin-top: 10px;
+        border: 6px solid #1106ba;
+    }
+    
+    .logo-item .cycle-three{
+        width: 160px;
+        height: 160px;
+        border-radius: 50%;
+        position: absolute;
+        /* opacity: 0;
+        left: 80%; */
+        margin-left: 20px;
+        margin-top: 18px;
+        border: 6px solid #1106ba;
+    }
+
+    .logo-item img:nth-last-of-type(1){
+        width: 190px;
+        left: 2%;
+        /* top: -70%; */
+        /* opacity: 0; */
+        display: block;
+        position: absolute;
+    }
+
+    .logo-item img:nth-last-of-type(2){
+        width: 190px;
+        left: 2%;
+        /* top: 70%; */
+        /* opacity: 0; */
+        display: block;
+        position: absolute;
+    }
+
+    /* logo-item style end */
+
+
+
+    /* logo-text style start */
+
+    .logo-text{
+        margin-top: 40px;
+        text-align: center;
+
+    }
+
+    .header-titel .logo-text h1{
+        font-size: 8vw;
+        color: #0e0e5f;
+        /* opacity: 0; */
+        font-family: 'DM Serif Display', serif;
+    }
+
+    .header-titel .logo-text p{
+        font-size: 3vw;
+        margin-top: 20px;
+        text-align: center;
+        line-height: 1.4;
+        padding-top: 10px;
+        font-family: 'DM Serif Display', serif;
+
+        /* opacity: 0; */
+    }
+
+    /* logo-text style end */
+
+
+/* header-titel style end*/
+
+/* header styale end */
+
+
+
+/* nav style end*/
+
+/* menu btn styling */
+
+
+/* home styling */
+
+
+
+/* home styling */
+
+/* concept style */
+
+.mw{
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-titel{
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+.section-subtitel{
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-subtitel::after{
+    content: "";
+    display: inline-block;
+    width: 10%;
+    height: 3px;
+    background-color: #1106ba;
+}
+
+.section-subtitel::before{
+    content: "";
+    display: inline-block;
+    width: 10%;
+    height: 3px;
+    background-color: #1106ba;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.section-titel h3{
+    color: #005ad1;
+}
+
+.aboutnmain-text p{
+    font-size: 1.2rem;
+    line-height: 3;
+}
+
+.aboutnmain-text p span{
+    font-weight: 700;
+}
+
+
+.about{
+    background-color: #f6f6f6;
+    padding: 120px 0;
+}
+
+.about-text p {
+    line-height: 3;
+}
+
+.btc{
+    background: linear-gradient(transparent 80%, #1DA1F2 80%);
+    font-weight: bold;
+}
+
+/* concept style end */
+
+/* service style */
+.service{
+    padding: 120px 0;
+}
+
+.service-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+/* .service-item:nth-child(3){
+    flex-direction: row-reverse;
+} */
+
+
+
+.text-item{
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    margin-left: auto;
+}
+
+
+
+
+.text-item h3{
+    font-size: 13px;
+    width: 85%;
+    color: #1106ba;
+}
+
+.text-item h3 span{
+    font-size: 25px;
+}
+
+.text-item h4{
+    font-size: 20px;
+    font-weight: 800;
+    margin: 40px 0;
+    width: 85%;
+}
+
+.text-item p{
+    width: 74%;
+    font-size: 15px;
+    line-height: 2;
+}
+
+.service-img{
+    width: 30%;
+    margin-right: auto;
+}
+
+.service-img img{
+    width: 100%;
+    display: block;
+}
+.service-item:nth-child(3){
+    flex-direction: row-reverse;
+}
+
+.service-item:nth-child(3)>.service-img{
+    margin-left: auto;
+}
+
+.service-item:nth-child(3)>.text-item{
+    margin-right: auto;
+    margin-left: 0;
+}
+
+
+/* .item-faide{
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: 1s,transform 2s;
+}
+
+.item-faider{
+    opacity: 0;
+    transform: translateX(50px);
+    transition: 1s,transform 2s;
+} */
+
+.learning-faide{
+    opacity: 0;
+    transform: translateY(100px);
+    transition: 1s,transform 1s;
+}
+
+.fadein-after{
+    /*透過度の設定。非表示から表示にする。*/
+    opacity: 1;
+    /*要素を100px左にしていたのを元の位置に戻す*/
+    transform: translate(0);
+}
+
+.fadein-after2{
+    /*透過度の設定。非表示から表示にする。*/
+    opacity: 1;
+    /*要素を100px左にしていたのを元の位置に戻す*/
+    transform: translate(0);
+}
+
+
+/* Corse area */
+
+.corse{
+    background-color: #f6f6f6;
+    padding: 120px;
+
+}
+
+.corce-height{
+    height: 50vw;
+}
+
+.corse-box{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.corse-item{
+    width: 35%;
+    margin: 0 20px;
+    transition: all .4s ease;
+}
+
+.corse-item:hover{
+    cursor: pointer;
+    opacity: 0.5
+}
+
+.corse-item h3{
+    width: 100%;
+    height: auto;
+    background-color: #005ad1;
+    padding: 100px;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    color: #F4F5F7;
+    text-align: center;
+}
+
+.corse-item p{
+    margin-top: 15px;
+    text-align: center;
+    line-height: 1.4;
+    padding: 0 6px;
+}
+
+.corse-item p span{
+    font-weight: 700;
+    display: block;
+    text-align: center;
+}
+
+/* corse style end */
+
+/* community style start */
+
+.community{
+    padding: 120px;
+    height: 50vw;
+}
+
+
+.community-conteiner h2
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+/* community style end */
+
+/* leading style start */
+
+.leading{
+    padding: 120px 0;
+}
+
+.leadeing-item{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+.leading-titel-area{
+    width: 50%;
+}
+
+.titel-area-box{
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.leading-titel-area h2{
+    display: inline-block;
+    border: 4px solid #3B5998;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.titel-area-box span::after{
+    content: "";
+    display: block;
+    width: 400px;
+    height: 2px;
+    background-color: #005ad1;
+}
+
+.leading-titel-area img{
+    width: 100%;
+    display: block;
+}
+
+.leading-text-area{
+    width: 50%;
+    padding: 0 15px;
+}
+
+.leading-text-area h3{
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 100px;
+}
+
+.leading-text-area p{
+    font-size: 18px;
+    line-height: 2;
+    width: 83%;
+}
+
+
+
+/* leading style end */
+
+/* price style start */
+
+.price{
+    padding: 120px 0;
+    background-color: #F4F5F7;
+}
+
+.price-container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.price-box{
+    margin-bottom: 100px;
+}
+
+.price-header{
+    text-align: center;
+}
+
+.price-header h2{
+    font-size: 40px;
+}
+
+.price-header p{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0;
+}
+
+.price-header .price-text span:nth-child(1){
+    font-size: 40px;
+    margin: 0 20px;
+}
+
+.price-text-2{
+    display: flex;
+    justify-content: center;
+}
+
+.prive-item p{
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid;
+}
+
+.prive-item{
+    display: flex;
+    margin: 0 15px;
+    align-items: center;
+}
+
+.prive-item span{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+
+
+
+/* price style end */
+
+
+
+/* footer area style */
+
+.footer{
+    background-color: #999;
+}
+
+.foote-area .logo,
+.foote-nav,
+.sns-logo{
+    margin-bottom: 30px;
+}
+.logo a{
+    color: #fff; ;
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+
+.logo a:hover{
+    cursor: pointer;
+    color: #005ad1;
+}
+
+.foote-area {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.foote-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.foote-nav ul li{
+    letter-spacing: 1.3px;
+    font-size: 15px;
+    color: #fff;
+    margin: 0 30px;
+}
+
+.foote-nav li:hover{
+    cursor: pointer;
+    color: #005ad1;
+}
+
+.sns-logo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.sns-logo li{
+    margin: 0 30px;
+}
+
+.sns-logo li i{
+    color: #000;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.f-icon i:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: #3B5998;
+
+}
+
+.t-icon i:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color:#1DA1F2;
+}
+
+.i-icon i:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color:rgb(174, 19, 225);
+}
+
+.copyright{
+    letter-spacing: 1.3px;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+}
+
+@media(max-width:990px){
+    .hader-area{
+        width: 100%;
+    }
+
+    .titele-container{
+        width: 100%;
+        left: 0%;
+        top: 35%;
+    }
+
+    .titele-container h1
+    {
+      font-size: 10vw;
+    }
+}
+
+@media(max-width:850px){
+
+    .header-nav,
+    .menu-btn{
+        z-index: 999;
+    }
+
+    
+    .header-nav ul{
+        flex-direction: column;
+        position: fixed;
+        top: 0%;
+        height: 100vh;
+        width: 40%;
+        right: 0%;
+        background-color: #b3b3b3;
+    }
+
+    .header-nav ul li a{
+        margin: 30px 50px;
+    }
+
+
+}
+
+
+
