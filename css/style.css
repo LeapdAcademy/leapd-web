@@ -48,9 +48,7 @@ header{
     transition: all 0.1s ease;
 }
 
-.header-nav ul li a:active{
-    border-bottom: 3px solid #1106ba;
-}
+
 
 .header-nav ul li a:hover{
     cursor: pointer;
@@ -213,6 +211,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #1106ba;
 }
 
 .section-subtitel::after{
@@ -220,7 +219,7 @@ header{
     display: inline-block;
     width: 10%;
     height: 3px;
-    background-color: #1106ba;
+    background-color: #000;
 }
 
 .section-subtitel::before{
@@ -228,7 +227,7 @@ header{
     display: inline-block;
     width: 10%;
     height: 3px;
-    background-color: #1106ba;
+    background-color: #000;
 }
 
 .text-center{
@@ -237,6 +236,7 @@ header{
 
 .section-titel h3{
     color: #005ad1;
+    font-weight: 700;
 }
 
 .aboutnmain-text p{
@@ -274,7 +274,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 100px 0;
+    padding-bottom: 120px;
 }
 
 /* .service-item:nth-child(3){
@@ -471,8 +471,9 @@ header{
 
 .leading-titel-area h2{
     display: inline-block;
-    border: 4px solid #3B5998;
+    border: 4px solid #005ad1;
     font-size: 20px;
+    font-weight: 800;
     padding: 10px;
 }
 
@@ -487,6 +488,7 @@ header{
 .leading-titel-area img{
     width: 100%;
     display: block;
+    box-shadow: 2px 2px 6px;
 }
 
 .leading-text-area{
@@ -506,6 +508,14 @@ header{
     width: 83%;
 }
 
+.leading-text-area p span{
+    font-size: 13px;
+    font-weight: 700;
+
+}
+
+
+
 
 
 /* leading style end */
@@ -514,59 +524,124 @@ header{
 
 .price{
     padding: 120px 0;
-    background-color: #F4F5F7;
+    background-color: #d3d2d2;
 }
 
 .price-container{
-    width: 90%;
-    margin: 0 auto;
-    padding: 50px 0;
-}
-
-.price-box{
-    margin-bottom: 100px;
-}
-
-.price-header{
-    text-align: center;
-}
-
-.price-header h2{
-    font-size: 40px;
-}
-
-.price-header p{
-    font-size: 20px;
-    font-weight: 600;
-    margin: 30px 0;
-}
-
-.price-header .price-text span:nth-child(1){
-    font-size: 40px;
-    margin: 0 20px;
-}
-
-.price-text-2{
+    width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.prive-item p{
-    display: inline-block;
-    padding: 10px;
-    border: 2px solid;
+.price-box{
+    width: 50%;
+    height: 800px;
+    background: #F4F5F7;
+    margin: 0 20px;
+    padding: 25px;
+    border-radius: 10%;
 }
 
-.prive-item{
+.price-item{
+    text-align: center;
+}
+
+.price-titel{
+    font-size: 40px;
+    font-weight: 730;
+    letter-spacing: 1.2px;
+    color: #005ad1;
+}
+
+.num{
+    font-size: 15px;
+    padding-top: 30px;
+}
+
+.num span{
+    margin: 0 10px;
+    font-size: 40px;
+}
+
+.price-num{
     display: flex;
-    margin: 0 15px;
+    margin: 30px 0;
+}
+
+
+.price-service-text{
+    padding-top: 30px;
+}
+
+.price-service-text h3{
+    margin-bottom: 20px;
+}
+
+.price-service-text .camp-titel::after{
+    content: "【中高生限定。次世代のクリエーター育成プログラム】";
+    display: block;
+    line-height: 2;
+}
+
+.price-service-text .labo-titel::after{
+    content: "【本当に必要とされる人材へ】";
+    display: block;
+    line-height: 2;
+}
+
+
+.price-service-text p{
+    text-align: start;
+}
+
+.price-service-text p{
+    padding: 10px 0;
+    font-weight: 700;
+    margin: 20px 10px;
+}
+
+.price-service-text span{
+    margin: 0 10px;
+}
+
+
+
+.sub-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.8px solid #ccc6c6;
+}
+
+.price-num-sumitem {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
     align-items: center;
 }
 
-.prive-item span{
-    display: inline-block;
-    margin-left: 20px;
+
+.sub-text{
+    padding-top: 60px;
 }
+
+.total-price {
+    margin-top: 43px;
+    text-align: center;
+}
+
+.total-price h4 {
+    margin-bottom: 10px;
+    color: #e9ae09;
+    font-weight: 800;
+    text-align: center;
+}
+
+.total-price p{
+    font-size: 25px;
+    letter-spacing: 1.0px;
+}
+
 
 
 
